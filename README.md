@@ -22,7 +22,7 @@ Set mae_loss to True to use Mean Absolute Error.
 Set mae_loss to False to use Mean Squared Error.
 
 ### use_standardization
-This defines if standardization or normalization should be used for feature scaling.
+This defines if standardization or normalization should be used for feature scaling. Standardization may potentially make more sense because things in nature, such as the dimensions of watermelons, often follow a normal distribution. This more closely matches what standardization does compared to normalization.
 
 Set use_standardization to True to use standardization.
 
